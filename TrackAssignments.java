@@ -60,7 +60,7 @@ class GroupAssignment extends Assignment {
   private String teamMates;
 
   public String message() {
-  return "Group " + super.message() + "call -" + this.teamMates;
+  return "Group " + super.message() + " call -" + this.teamMates;
   
   }
 
